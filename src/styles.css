@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #23252C;
+    color: white;
+}
+
+#veljko-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 4em;
+}
+
+.info {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    margin: 0.5em;
+}
+
+.info h5 {
+    margin: 0.2em;
+    font-weight: 400;
+}
+
+.info h5:last-of-type {
+    margin-bottom: 2em;
+}
+
+.buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #23252C;
+    background-color: white;
+    padding: 0.5em 1.25em;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+
+/* Sections */
+.about, .interests {
+    padding: 1em 2em;
+}
+
+.about h3, .interests h3,
+.about p, .interests p {
+    margin: 0.5em 0;
+}
+
+.interests {
+    margin-bottom: 2em;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #13151C;
+    padding: 1.5em;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    margin: 0 .8em;
+    transition: transform;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Media query */
+@media screen and (min-width: 750px){
+    .about, .interests {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .interests {
+        margin-bottom: 3em;
+    }
+}
