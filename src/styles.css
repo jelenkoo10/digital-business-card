@@ -89,7 +89,7 @@ body {
     cursor: pointer;
 }
 
-/* Media query */
+/* Media queries */
 @media screen and (min-width: 750px){
     .about, .interests {
         width: 50%;
@@ -98,5 +98,29 @@ body {
 
     .interests {
         margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #veljko-pic {
+        width: 200px;
+        height: 200px;
+        border-radius: .75em;
+        margin-top: 1em;
+    }
+
+    .about,
+    .interests {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .interests {
+        margin-bottom: 2em;
+    }
+
+    .footer img {
+        width: 40px;
+        height: 40px;
     }
 }
