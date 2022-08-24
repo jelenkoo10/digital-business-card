@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Info() {
     return (
-        <div className="info">
+        <section className="info">
             <img src={require("./veljko.JPG")} alt="Veljko's picture" id="veljko-pic" />
             <h1>Veljko Jelenković</h1>
             <h5>Frontend developer</h5>
@@ -11,6 +11,6 @@ export default function Info() {
                 <a href="mailto:veljkojelenkovic00@gmail.com" target="_blank">Email</a>
                 <a href="https://github.com/jelenkoo10" target="_blank">GitHub</a>
             </div>
-        </div>
+        </section>
     )
 }
