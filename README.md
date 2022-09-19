@@ -20,13 +20,13 @@ Users are able to see some basic info about me, my profile picture, where do I s
 
 Desktop and mobile design of Digital Business Card.
 
-![](./images/screenshot1.jpg)
+![](./src/images/screenshot1.jpg)
 
-![](./images/screenshot2.jpg)
+![](./src/images/screenshot2.jpg)
 
 ### Links
 
-- Live Site URL: [Digital Business Card](https://https://jelenkoo10.github.io/digital-business-card/)
+- Live Site URL: [Digital Business Card](https://jelenkoo10.github.io/digital-business-card/)
 
 
 ## Process
